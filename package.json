@@ -1,6 +1,6 @@
 {
   "name": "react-express-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/hevine/react-express-cli/issues"
   },
-  "homepage": "https://github.com/hevine/react-express-cli#readme"
+  "bin": {
+    "react-express-cli": "./index.js"
+  },
+  "homepage": "https://github.com/hevine/react-express-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.4"
+  }
 }
